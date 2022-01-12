@@ -1,0 +1,754 @@
+<html>
+<meta charset="UTF-8"/>
+<script src="http://moinejf.free.fr/js/abcweb-1.js"></script>
+<script src="http://moinejf.free.fr/js/snd-1.js"></script>
+<style>svg {display:block}</style>
+<title></title>
+</head>
+<body bgcolor="#faf0e6"><p>2021-08-06T11:07:04</p>
+<p>path_to_model: models/earls_chair</p>
+<p>general_metadata:
+<ul>
+<li>model_name: earls_chair
+</li>
+<li>model_description: Using the larger and simplified folk_rnn dataset to train a baseline model
+</li>
+<li>dataset: folk_rnn
+</li>
+<li>version: a
+</li>
+<li>version_description: Initial run for earls_chair
+</li>
+</ul>
+</p>
+<p>model_metadata:
+<ul>
+<li>model_type: gpt2
+</li>
+<li>vocab_size: 296
+</li>
+<li>n_ctx: 512
+</li>
+<li>n_embd: 384
+</li>
+<li>n_head: 12
+</li>
+<li>n_inner: 6
+</li>
+<li>n_layer: 6
+</li>
+<li>n_positions: 512
+</li>
+</ul>
+</p>
+<p>training_metadata:
+<ul>
+<li>epoch: 12.270513300861746
+</li>
+<li>global_step: 65500
+</li>
+</ul>
+</p>
+<p>prompts:
+<ul>
+<li><a href="#prompt1">Prompt 1 - M:4/4
+K:maj
+</a></li>
+<li><a href="#prompt2">Prompt 2 - M:4/4
+K:min
+</a></li>
+<li><a href="#prompt3">Prompt 3 - M:4/4
+K:dor
+</a></li>
+<li><a href="#prompt4">Prompt 4 - M:4/4
+K:mix
+</a></li>
+<li><a href="#prompt5">Prompt 5 - M:6/8
+K:maj
+</a></li>
+<li><a href="#prompt6">Prompt 6 - M:6/8
+K:min
+</a></li>
+<li><a href="#prompt7">Prompt 7 - M:6/8
+K:dor
+</a></li>
+<li><a href="#prompt8">Prompt 8 - M:6/8
+K:mix
+</a></li>
+<li><a href="#prompt9">Prompt 9 - M:3/4
+K:maj
+</a></li>
+<li><a href="#prompt10">Prompt 10 - M:3/4
+K:min
+</a></li>
+<li><a href="#prompt11">Prompt 11 - M:3/4
+K:dor
+</a></li>
+<li><a href="#prompt12">Prompt 12 - M:3/4
+K:mix
+</a></li>
+<li><a href="#prompt13">Prompt 13 - M:2/4
+K:maj
+</a></li>
+<li><a href="#prompt14">Prompt 14 - M:2/4
+K:min
+</a></li>
+<li><a href="#prompt15">Prompt 15 - M:2/4
+K:dor
+</a></li>
+<li><a href="#prompt16">Prompt 16 - M:2/4
+K:mix
+</a></li>
+<li><a href="#prompt17">Prompt 17 - M:9/8
+K:maj
+</a></li>
+<li><a href="#prompt18">Prompt 18 - M:9/8
+K:min
+</a></li>
+<li><a href="#prompt19">Prompt 19 - M:9/8
+K:dor
+</a></li>
+<li><a href="#prompt20">Prompt 20 - M:9/8
+K:mix
+</a></li>
+</ul>
+</p>
+<h3 id="prompt1">Prompt 1 - M:4/4	K:maj	</h3>
+<p><p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.6
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 1
+M:4/4
+K:maj
+|: ^C 3 =F ^G ^c =c ^A ^G ^F =F ^C | ^C =F ^C ^D =F ^F ^G ^G ^A =c ^c | ^d ^c ^A 2 ^G =F ^F ^G ^F =F ^F ^D | ^C 2 =F ^C ^D ^D ^G ^F =F ^C ^G =F ^C ^G | ^G | ^F | ^F 2 =FF 2 | ^D ^G =</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 1
+M:4/4
+K:maj
+|: ^C 3 =F ^G ^c =c ^A ^G ^F =F ^C | ^C =F ^C ^D =F ^F ^G ^G ^A =c ^c | ^d ^c ^A 2 ^G =F ^F ^G ^F =F ^F ^D | ^C 2 =F ^C ^D ^D ^G ^F =F ^C ^G =F ^C ^G | ^G | ^F | ^F 2 =FF 2 | ^D ^G =
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 2
+M:4/4
+K:maj
+^G 2 ^C 2 | ^G ^G ^C ^C 2 =F ^G =F ^C ^D =F | ^G 2 ^c 2 =c ^c 2 =c ^G ^F ^D | =F ^C ^D =F ^F ^G 2 =G ^G ^C =F ^G ^F ^F | =F ^D ^C =F ^G ^D ^C ^C =F | ^G =FF | ^F 2 ^G =FF ^F ^D ^G 2</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 2
+M:4/4
+K:maj
+^G 2 ^C 2 | ^G ^G ^C ^C 2 =F ^G =F ^C ^D =F | ^G 2 ^c 2 =c ^c 2 =c ^G ^F ^D | =F ^C ^D =F ^F ^G 2 =G ^G ^C =F ^G ^F ^F | =F ^D ^C =F ^G ^D ^C ^C =F | ^G =FF | ^F 2 ^G =FF ^F ^D ^G 2
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 3
+M:4/4
+K:maj
+^G /2 ^F /2 ^D &gt =F ^F /2 ^G ^A 2 ^G =F /2 ^F /2 ^G | ^A /2 =c /2 ^D /2 ^C /2 =F /2 ^G /2 ^G /2 =F /2 ^F /2 ^C /2 ^D /2 ^C /4 ^C /2 =F /2 ^C /2 ^C /2 | =F /2 ^D /2 ^C | ^F, /2 ^</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 3
+M:4/4
+K:maj
+^G /2 ^F /2 ^D > =F ^F /2 ^G ^A 2 ^G =F /2 ^F /2 ^G | ^A /2 =c /2 ^D /2 ^C /2 =F /2 ^G /2 ^G /2 =F /2 ^F /2 ^C /2 ^D /2 ^C /4 ^C /2 =F /2 ^C /2 ^C /2 | =F /2 ^D /2 ^C | ^F, /2 ^
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 1.0
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 4
+M:4/4
+K:maj
+|: =e =d (3 =d =d =B =G (3 =f =d =G (3 =c =B =A =G | =e 2 =G =a =c' =e =c' 2 =e =G /2 =cEcG =c =e | =e =A =G =c =e =G =e =d =e =cc =e =G =eE =ccd =d | =c =e =G - | =ee =g | z =</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 4
+M:4/4
+K:maj
+|: =e =d (3 =d =d =B =G (3 =f =d =G (3 =c =B =A =G | =e 2 =G =a =c' =e =c' 2 =e =G /2 =cEcG =c =e | =e =A =G =c =e =G =e =d =e =cc =e =G =eE =ccd =d | =c =e =G - | =ee =g | z =
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 256
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 5
+M:4/4
+K:maj
+|: =D 2 | =G, 4 =E 2 =D 2 | =E =D =E =G, 2 =C 2 =BE 2 | =C 2 =G, 2 =AC 2 =C 2 | =B, 2 =C 2 =D 2 =E 2 =C 2 | =D 2 =D 2 =G, 3 | =E, 2 =D, 2 =B, 2 =CC 2 :| | =B /2 =G, 2 =A, 2 =E, /A, 4 | =G, =E =F 2 | =G, 2 =G, 4 =B, 2 =B, 2 =C =D =C 2 =BD 2 =D =F 2 =CC 2 =ED =E, 2 | =D 2 =G, 2 =G, 2 =E, 2 | =D =B, 2 =G, 2 =G, 2 | =FCCC =G =E =E =B, 2 =G, =G, 2 =D 2 | | =E, 2 =G, 2 =E =AF =D =CD =</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 5
+M:4/4
+K:maj
+|: =D 2 | =G, 4 =E 2 =D 2 | =E =D =E =G, 2 =C 2 =BE 2 | =C 2 =G, 2 =AC 2 =C 2 | =B, 2 =C 2 =D 2 =E 2 =C 2 | =D 2 =D 2 =G, 3 | =E, 2 =D, 2 =B, 2 =CC 2 :| | =B /2 =G, 2 =A, 2 =E, /A, 4 | =G, =E =F 2 | =G, 2 =G, 4 =B, 2 =B, 2 =C =D =C 2 =BD 2 =D =F 2 =CC 2 =ED =E, 2 | =D 2 =G, 2 =G, 2 =E, 2 | =D =B, 2 =G, 2 =G, 2 | =FCCC =G =E =E =B, 2 =G, =G, 2 =D 2 | | =E, 2 =G, 2 =E =AF =D =CD =
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 512
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 6
+M:4/4
+K:maj
+=E =F =D =C =D =F =E =D =B, =D =CC =A, =A, | =D 3 =C 3 =A, 2 =G, =A, =C =D | =E =G, 2 =A, =F =D =E =D =C =D =E =E =GG, =B, =C | =E, =A, =C =D, =B, =C 2 |: =D, =F, | =G, =A, =G, =G =A, =A, 2 =CC =F 3 =CG, | =A, 2 =FC =C =AGD =E =D =C 2 =D =D =B, =C =D =E 2 =BG =G, =D =G, =F 2 =G, =G, =CG, =F =C =B, =C | =D, =D =G, =BG, =C =BD =B, =G, =D =G, =B, =A, =D =G, =BC | =G =G =E =D =D | =E =D =D =G, =F =Cc =G =D =E =D =F =D =BB, =E =B, =BE =C =AE =F =B, =B, =G, =A =E =AAA, | =A, =G =D | =CC =D | =G =C =C =A =</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 6
+M:4/4
+K:maj
+=E =F =D =C =D =F =E =D =B, =D =CC =A, =A, | =D 3 =C 3 =A, 2 =G, =A, =C =D | =E =G, 2 =A, =F =D =E =D =C =D =E =E =GG, =B, =C | =E, =A, =C =D, =B, =C 2 |: =D, =F, | =G, =A, =G, =G =A, =A, 2 =CC =F 3 =CG, | =A, 2 =FC =C =AGD =E =D =C 2 =D =D =B, =C =D =E 2 =BG =G, =D =G, =F 2 =G, =G, =CG, =F =C =B, =C | =D, =D =G, =BG, =C =BD =B, =G, =D =G, =B, =A, =D =G, =BC | =G =G =E =D =D | =E =D =D =G, =F =Cc =G =D =E =D =F =D =BB, =E =B, =BE =C =AE =F =B, =B, =G, =A =E =AAA, | =A, =G =D | =CC =D | =G =C =C =A =
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: False
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+<li>num_beams: 5
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 7
+M:4/4
+K:maj
+ (3 =G, =A, =B, =C =D =E =G, =C =E =G, =C =E | =G, =C =E =C =G, =C =E, =C =E, =G, =C =E, =G, | =C =E, =G, =A, =G, =A, =C, =E, =G, =C, =G, =C, =E, | =G, =C, =E, =E,</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 7
+M:4/4
+K:maj
+ (3 =G, =A, =B, =C =D =E =G, =C =E =G, =C =E | =G, =C =E =C =G, =C =E, =C =E, =G, =C =E, =G, | =C =E, =G, =A, =G, =A, =C, =E, =G, =C, =G, =C, =E, | =G, =C, =E, =E,
+
+</script>
+
+</p><h3 id="prompt2">Prompt 2 - M:4/4	K:min	</h3>
+<p><p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.6
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 8
+M:4/4
+K:min
+|: ^A 2 =f ^A =f ^A 2 ^A ^d =f | ^A 2 ^A =f ^d ^c =c ^G ^G =c | ^G 2 =f ^d ^c =c ^A =c ^G ^G =F | ^G 2 =F ^A ^A ^G ^A 2 ^G =F ^A 2 | =F 2 =FdD ^G ^G ^A ^A ^G ^G ^AG ^A 2 | ^G 2 | ^AF</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 8
+M:4/4
+K:min
+|: ^A 2 =f ^A =f ^A 2 ^A ^d =f | ^A 2 ^A =f ^d ^c =c ^G ^G =c | ^G 2 =f ^d ^c =c ^A =c ^G ^G =F | ^G 2 =F ^A ^A ^G ^A 2 ^G =F ^A 2 | =F 2 =FdD ^G ^G ^A ^A ^G ^G ^AG ^A 2 | ^G 2 | ^AF
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 9
+M:4/4
+K:min
+^G =F ^G =F ^F 2 =F ^G | =f ^d ^c =c ^A ^G ^F =F | ^G =F ^A ^C =F ^C 2 =F =F | ^G ^F ^D ^C =F ^A ^G =F ^D ^G =c | ^D ^D ^C | =F, =F /2 ^FF /2 ^FG =FG =FC =FF ^D ^G ^D | ^FC ^C</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 9
+M:4/4
+K:min
+^G =F ^G =F ^F 2 =F ^G | =f ^d ^c =c ^A ^G ^F =F | ^G =F ^A ^C =F ^C 2 =F =F | ^G ^F ^D ^C =F ^A ^G =F ^D ^G =c | ^D ^D ^C | =F, =F /2 ^FF /2 ^FG =FG =FC =FF ^D ^G ^D | ^FC ^C
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 10
+M:4/4
+K:min
+^G 2 =F ^G ^A ^G =F ^D 2 | ^D 2 ^D 2 =F ^F 2 =F ^D 2 | ^C ^D =F ^C 4 =C ^D ^G, | ^A, ^C =C ^C ^C 2 =C ^A, =C ^C ^G, ^G, ^G, |: ^G, =A, ^G, ^G, ^AA, 2 | ^G, ^AF, 2 | ^G, 2 | ^G,</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 10
+M:4/4
+K:min
+^G 2 =F ^G ^A ^G =F ^D 2 | ^D 2 ^D 2 =F ^F 2 =F ^D 2 | ^C ^D =F ^C 4 =C ^D ^G, | ^A, ^C =C ^C ^C 2 =C ^A, =C ^C ^G, ^G, ^G, |: ^G, =A, ^G, ^G, ^AA, 2 | ^G, ^AF, 2 | ^G, 2 | ^G,
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 1.0
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 11
+M:4/4
+K:min
+=A =B, =A, =G =A, =B, =A, =E 2 =G =A | =B, =C 2 - =C =C 2 =G =F | =c =B =C =C =E =c 2 | - =c =E =E =BF 2 =G</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 11
+M:4/4
+K:min
+=A =B, =A, =G =A, =B, =A, =E 2 =G =A | =B, =C 2 - =C =C 2 =G =F | =c =B =C =C =E =c 2 | - =c =E =E =BF 2 =G
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 256
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 12
+M:4/4
+K:min
+|: =F ^A /2 ^G /2 =F ^G =F ^D ^G :| =F =F /2 ^F /2 ^D ^C ^D ^C | =C ^D - ^D 2 =F ^D 2 =FA,d, | ^D ^C 2 =F ^D ^D ^G, 2 =F ^C =C | ^D | =F =C ^G, 2 =C ^D ^G, /2 ^G, /C =FF | ^G, | ^D =FF ^C /2 ^D /2 ^D /2 ^G, /2 =C ^A, 2 =F /2 =F ^G, | ^G, =F ^A =C ^G, =F ^F =CD 3 -C =F | ^A, =F 2 =F =F ^D ^G 2 =FF | ^D ^F =F ^A, ^C | ^G, =F /F /2 ^G, 2 ^G, ^C =C =F ^D /2 ^ADD ^AB =C</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 12
+M:4/4
+K:min
+|: =F ^A /2 ^G /2 =F ^G =F ^D ^G :| =F =F /2 ^F /2 ^D ^C ^D ^C | =C ^D - ^D 2 =F ^D 2 =FA,d, | ^D ^C 2 =F ^D ^D ^G, 2 =F ^C =C | ^D | =F =C ^G, 2 =C ^D ^G, /2 ^G, /C =FF | ^G, | ^D =FF ^C /2 ^D /2 ^D /2 ^G, /2 =C ^A, 2 =F /2 =F ^G, | ^G, =F ^A =C ^G, =F ^F =CD 3 -C =F | ^A, =F 2 =F =F ^D ^G 2 =FF | ^D ^F =F ^A, ^C | ^G, =F /F /2 ^G, 2 ^G, ^C =C =F ^D /2 ^ADD ^AB =C
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 512
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 13
+M:4/4
+K:min
+=A =B =c =d =c =A =G =F =c =A | =G =A =B =c =d =e =c =d =c | =A =B =d 4 :| |: =d =e =c =c =A =G =c =d =c =A =F =BE =c =d | =Be =G =A 2 =dc =c =d =c =e =BBe =c =A =f =c =f | =e =e =d =AAA =cc =A | =d =Bc =dd =e =eC =a =A =G =A =BG =B =g =e =A =d | =g =c =e 2 z =AE =cc =A =G =eeBF =G | =B =Ad =d =A =A =e =G =A =G =e =AF =G =a &gt =A =cc =BG =e | =Bd =G =c =G =BG =f =Bc =Ac =A =c =f</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 13
+M:4/4
+K:min
+=A =B =c =d =c =A =G =F =c =A | =G =A =B =c =d =e =c =d =c | =A =B =d 4 :| |: =d =e =c =c =A =G =c =d =c =A =F =BE =c =d | =Be =G =A 2 =dc =c =d =c =e =BBe =c =A =f =c =f | =e =e =d =AAA =cc =A | =d =Bc =dd =e =eC =a =A =G =A =BG =B =g =e =A =d | =g =c =e 2 z =AE =cc =A =G =eeBF =G | =B =Ad =d =A =A =e =G =A =G =e =AF =G =a > =A =cc =BG =e | =Bd =G =c =G =BG =f =Bc =Ac =A =c =f
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: False
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+<li>num_beams: 5
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 14
+M:4/4
+K:min
+|: ^A 2 =c ^c ^A ^G =F ^C =F ^G | ^A 2 =c ^c ^d =f ^c ^d =c | ^c ^c =c ^A ^G =F ^G =F ^D ^F =F ^D | ^C 2 =F ^D ^G ^F =F ^D ^C =F ^D ^D | ^G =F 2 | ^D 2 | ^C 2 | ^C 2 | ^D 2 | ^G 2 | ^G 2</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 14
+M:4/4
+K:min
+|: ^A 2 =c ^c ^A ^G =F ^C =F ^G | ^A 2 =c ^c ^d =f ^c ^d =c | ^c ^c =c ^A ^G =F ^G =F ^D ^F =F ^D | ^C 2 =F ^D ^G ^F =F ^D ^C =F ^D ^D | ^G =F 2 | ^D 2 | ^C 2 | ^C 2 | ^D 2 | ^G 2 | ^G 2
+
+</script>
+
+</p><h3 id="prompt3">Prompt 3 - M:4/4	K:dor	</h3>
+<p><p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.6
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 15
+M:4/4
+K:dor
+|: =A =B, =A, =B, =C =A, =D =G, =A, =B, =D | =E =G =E =G, =A, =C =A, =A, =B, =C | =D =E, =E, =D, =F, 2 =E, =G, =B, =G, =C =E, =D, =E, =F, | | =G, =A, =B, 2 | =C, =D,</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 15
+M:4/4
+K:dor
+|: =A =B, =A, =B, =C =A, =D =G, =A, =B, =D | =E =G =E =G, =A, =C =A, =A, =B, =C | =D =E, =E, =D, =F, 2 =E, =G, =B, =G, =C =E, =D, =E, =F, | | =G, =A, =B, 2 | =C, =D,
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 16
+M:4/4
+K:dor
+|: (3 ^F ^G ^c &gt ^d =f &gt =f ^c &gt ^c | ^d &gt =f (3 ^f =f ^d ^c (3 ^d ^c =c |1G &gt ^G ^c (3 ^f =f ^d ^f ^G ^c &gt ^d =f ^G &gt =cc &gt =f | (3 ^dc ^G =f ^GGG ^G ^G ^G &gt =f :|G 2fa 2 :| :| |G 2f</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 16
+M:4/4
+K:dor
+|: (3 ^F ^G ^c > ^d =f > =f ^c > ^c | ^d > =f (3 ^f =f ^d ^c (3 ^d ^c =c |1G > ^G ^c (3 ^f =f ^d ^f ^G ^c > ^d =f ^G > =cc > =f | (3 ^dc ^G =f ^GGG ^G ^G ^G > =f :|G 2fa 2 :| :| |G 2f
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>

@@ -1,0 +1,338 @@
+<html>
+<meta charset="UTF-8"/>
+<script src="http://moinejf.free.fr/js/abcweb-1.js"></script>
+<script src="http://moinejf.free.fr/js/snd-1.js"></script>
+<style>svg {display:block}</style>
+<title></title>
+</head>
+<body bgcolor="#faf0e6"><p>2021-08-06T11:06:09</p>
+<p>path_to_model: models/banish_misfortune</p>
+<p>general_metadata:
+<ul>
+<li>model_name: banish_misfortune
+</li>
+<li>model_description: Using improved dataset to generate type/mode/meter
+</li>
+<li>dataset: tunes_v2
+</li>
+<li>version: a
+</li>
+<li>version_description: Initial run for banish_misfortune
+</li>
+</ul>
+</p>
+<p>model_metadata:
+<ul>
+<li>model_type: gpt2
+</li>
+<li>vocab_size: 403
+</li>
+<li>n_ctx: 512
+</li>
+<li>n_embd: 384
+</li>
+<li>n_head: 12
+</li>
+<li>n_inner: 6
+</li>
+<li>n_layer: 6
+</li>
+<li>n_positions: 512
+</li>
+</ul>
+</p>
+<p>training_metadata:
+<ul>
+<li>epoch: 10.0
+</li>
+<li>global_step: 21610
+</li>
+</ul>
+</p>
+<p>prompts:
+<ul>
+<li><a href="#prompt1">Prompt 1 - R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E |</a></li>
+<li><a href="#prompt2">Prompt 2 - R: jig
+M: 6/8
+K: Gmajor
+|: G3 G A B |</a></li>
+<li><a href="#prompt3">Prompt 3 - R: polka
+M: 2/4
+K: Dmajor
+d d B/ c/ d/ B/ |</a></li>
+<li><a href="#prompt4">Prompt 4 - R: hornpipe
+M: 4/4
+K: Edorian
+|: B,2 | E D E F G F G A</a></li>
+<li><a href="#prompt5">Prompt 5 - R: waltz
+M: 3/4
+K: Gmajor
+B2 B A B d |</a></li>
+<li><a href="#prompt6">Prompt 6 - R: slip jig
+M: 9/8
+K: Eminor
+|: B2 E G2 E F3 |</a></li>
+<li><a href="#prompt7">Prompt 7 - R: jig
+M: 6/8
+K: Dmixolydian
+f e d c A G |</a></li>
+<li><a href="#prompt8">Prompt 8 - R: reel
+M: 4/4
+K: Dminor
+A,2 D A, F A, D A, |</a></li>
+<li><a href="#prompt9">Prompt 9 - R: jig
+M: 6/8
+K: Adorian
+|: a3 b a g |</a></li>
+<li><a href="#prompt10">Prompt 10 - R: reel
+M: 4/4
+K: Dmajor
+A |: F A (3 A A A B A F A</a></li>
+<li><a href="#prompt11">Prompt 11 - R: jig</a></li>
+<li><a href="#prompt12">Prompt 12 - R: reel</a></li>
+<li><a href="#prompt13">Prompt 13 - R: polka</a></li>
+<li><a href="#prompt14">Prompt 14 - R: waltz</a></li>
+<li><a href="#prompt15">Prompt 15 - R: hornpipe</a></li>
+<li><a href="#prompt16">Prompt 16 - R: slip jig</a></li>
+<li><a href="#prompt17">Prompt 17 - M: 4/4</a></li>
+<li><a href="#prompt18">Prompt 18 - M: 6/8</a></li>
+<li><a href="#prompt19">Prompt 19 - M: 3/4</a></li>
+<li><a href="#prompt20">Prompt 20 - M: 2/4</a></li>
+<li><a href="#prompt21">Prompt 21 - M: 9/8</a></li>
+<li><a href="#prompt22">Prompt 22 - G</a></li>
+<li><a href="#prompt23">Prompt 23 - e</a></li>
+</ul>
+</p>
+<h3 id="prompt1">Prompt 1 - R: reel	M: 4/4	K: Edorian	|: E2 B E d E B E |</h3>
+<p><p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.6
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 1
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E2 B E A F B A | G2 B E D E B E | E2 B E2 B E F | G2 B E D E B E E | E2 B E E A F B A | G2 B2 B E D E | E2 B E E2 B E | E2 B E E D E B | A2 B E D E B E | E3 B E D E B | G2 B E D E B, B, | G2</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 1
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E2 B E A F B A | G2 B E D E B E | E2 B E2 B E F | G2 B E D E B E E | E2 B E E A F B A | G2 B2 B E D E | E2 B E E2 B E | E2 B E E D E B | A2 B E D E B E | E3 B E D E B | G2 B E D E B, B, | G2
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 2
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | B E E d E B E D | E2 B E d E B E | G E D E F G A F | B E E d E B E | B E E D E2 :| A | e2 e e e f g e | d e f d d e d c B | A B A B d e f g e | d e f d e d c B | A B A F B d e f g | e2 e e e d e f g | d e</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 2
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | B E E d E B E D | E2 B E d E B E | G E D E F G A F | B E E d E B E | B E E D E2 :| A | e2 e e e f g e | d e f d d e d c B | A B A B d e f g e | d e f d e d c B | A B A F B d e f g | e2 e e e d e f g | d e
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 3
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E2 B E d E B E | e2 B e d B A B | E2 B E B E E F | e2 B e d B A | E2 B E d E B E :| e2 B d B A B A | G A B G A B d | e2 B d B A B | G E E B E d B A | G A B G A B A B | G E B E d B A B | e2 B d B B A B</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 3
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E2 B E d E B E | e2 B e d B A B | E2 B E B E E F | e2 B e d B A | E2 B E d E B E :| e2 B d B A B A | G A B G A B d | e2 B d B A B | G E E B E d B A | G A B G A B A B | G E B E d B A B | e2 B d B B A B
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 128
+</li>
+<li>temperature: 1.0
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 4
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | B E D B E E A B | e e e e d B A (3 B e d | e f e e d B A G | E F A B/ A/ B A G F | E E D B E G E B E | (3 B c d e f d B A B | e e e e d B D G | E F A B/ A B A3 B | e e B e d B A A | e e f e e d B d | (</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 4
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | B E D B E E A B | e e e e d B A (3 B e d | e f e e d B A G | E F A B/ A/ B A G F | E E D B E G E B E | (3 B c d e f d B A B | e e e e d B D G | E F A B/ A B A3 B | e e B e d B A A | e e f e e d B d | (
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 256
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 5
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E2 B E d E B E | G E D E B E G B E | E2 B E d B E B | A2 B E d E B E | E d B E d E B E | G E G D E B E B E | G E D E B, A, B, B, E | G E D E B, B, A, B, | G E D E G B E | | |: F E F F E F B, B, B, A, F | D E F E F B, B, B, B, B, B E E B, B, B, B, B,/ B, B, B, B, B D | | B, B, B, B, B d B, B, B, B, B2 A, B, B, B, B, A, B, B, B, B F B, B, A, B, A, A, B, B, B, | | | G, B, A G, B, B, B, B, E F E B, B,</pre>
+
+<script type="text/vnd.abc">
+%abc-2.2
+%%pagewidth 14cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.8cm
+%%rightmargin 0.8cm
+
+X: 5
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E2 B E d E B E | G E D E B E G B E | E2 B E d B E B | A2 B E d E B E | E d B E d E B E | G E G D E B E B E | G E D E B, A, B, B, E | G E D E B, B, A, B, | G E D E G B E | | |: F E F F E F B, B, B, A, F | D E F E F B, B, B, B, B, B E E B, B, B, B, B,/ B, B, B, B, B D | | B, B, B, B, B d B, B, B, B, B2 A, B, B, B, B, A, B, B, B, B F B, B, A, B, A, A, B, B, B, | | | G, B, A G, B, B, B, B, E F E B, B,
+
+</script>
+
+<p>test_parameters:
+<ul>
+<li>max_length: 512
+</li>
+<li>temperature: 0.8
+</li>
+<li>no_repeat_ngram_size: 10
+</li>
+<li>do_sample: True
+</li>
+<li>top_k: 50
+</li>
+<li>early_stopping: True
+</li>
+</ul>
+</p>
+model_output:
+
+<pre>X: 6
+R: reel
+M: 4/4
+K: Edorian
+|: E2 B E d E B E | E e e f e e c B e | f2 e d c B A F | E2 B E d E B E | F E D D E F A F | E e e f e c B A | d B A F D E B f | e c B c B A F | E e e f e c e | f2 e d c B A B | F E E D E F A F | E e e e e c B A B | (3 B c B B c B c B A F E F D E A B E F A F A F c | E F D E F D E E2 G B A F | E A c B E A G c B c e f e A F | E F A F A A F E c e F A E F F | | E F D B A E E B c E F A B c B A F | B A F E F A F | A F2 E B E E F A c | | E E A B c A E E F d F A2 c | A F c | E F A F2 B E F E F A F A F E E F | | f e d F A F A F A E F A E F A F A B F E2 e f B E F A d D | E F d c E2 d F c B e A F | E F A F A | | E E2 B c F c | E B A B E F A F A F E2 E2 d F E d c d F A F A F A B A d F E F | d e F | | | D E f e f B E F F A F | E g E A F | d A F A B e F A F E B G2 B2 B f e e | F | A e A F A F E e F | | F A E c E F A F | B B c B E E F A F A e | 1 c E2 E2 F A d F A F | A B E A e F c E F A F A F | A B E F E F e B A F e f f F | | f e f d F e c E B E F A F A F A F B d B, | d F | F E</pre>
+
